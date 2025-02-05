@@ -112,6 +112,7 @@ require (
 )
 
 replace (
+	github.com/loft-sh/k8s-apiserver => github.com/kale-amruta/apiserver v0.32.1-test
 	k8s.io/apiserver => github.com/loft-sh/k8s-apiserver v0.32.1-loft.0
 	k8s.io/client-go => github.com/loft-sh/k8s-client-go v0.32.1-loft.0
 )
